@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureAllChildren="false"
+    android:stackFromBottom="true"
+    android:background="#FF4848"
+    android:transcriptMode="alwaysScroll" >
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_launcher_web"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:hint="@string/DocEmailText"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dip"
+            android:layout_marginBottom="5dip"
+            android:singleLine="true"/>
+        <!--  Password Label -->
+
+        <EditText
+            android:id="@+id/pword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/DocPasswordText"
+            android:layout_marginTop="10dip"
+            android:singleLine="true"
+            android:inputType="textPassword"/>
+        <!-- Login button -->
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="#ff3ddc76"
+            android:text="@string/DocLogin"/>
+
+        <!-- Link to Registration Screen -->
+        <TextView android:id="@+id/link_to_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="40dip"
+            android:text="@string/DocRegister"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

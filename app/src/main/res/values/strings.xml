@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Your Doctor</string>
+    <string name="action_settings">Settings</string>
+    <string name="imgDesc">Logo Image</string>
+
+    <!-- Doctor Login -->
+    <string name="title_activity_doctor">Doctor</string>
+    <string name="DocEmailText">Doctor Email</string>
+    <string name="DocPasswordText">Doctor Password</string>
+    <string name="DocLogin">SIGN IN</string>
+    <string name="DocRegister"><b><u>New user? Sign up</u></b></string>
+    <!-- Doctor Register -->
+    <string name="title_activity_doctor_register">DoctorRegister</string>
+    <string name="RegDocNameText">First Name</string>
+    <string name="RegDocLocText">Location</string>
+    <string name="RegDocEmailText">Email-id</string>
+    <string name="RegDocPassText">Password</string>
+    <string name="RegUserNameText">Visiting hours(ex. 18-20)</string>
+    <string name="DocReg"><b>SIGN UP</b></string>
+    <!-- Appointments -->
+    <string name="title_activity_appointments">Appointments</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_locate">Locate</string>
+    <string name="display">display</string>
+    <!-- Fix appointments -->
+    <string name="title_activity_fix_appointment">FixAppointment</string>
+    <string name="my_string">DOCTORS</string>
+    <string name="FixName">Name</string>
+    <string name="FixReason">Reason for visit</string>
+    <string name="next"><b>NEXT</b></string>
+    <!-- Select Doctor-->
+    <string name="LocSelect">Select Doctors location</string>
+    <string name="Search">Search doctors</string>
+    <string name="docnext"><b>NEXT</b></string>
+
+    <string name="title_activity_select_doctor">SelectDoctor</string>
+    <string name="title_activity_choose_date">ChooseDate</string>
+
+    <string name="title_activity_date_and_time">DateAndTime</string>
+    <string name="date">Choose Date</string>
+    <string name="time">Choose Time</string>
+    <string name="sub"><b>SUBMIT</b></string>
+    <!--Basic Info -->
+    <string name="title_activity_basic_info">BasicInfo</string>
+    <string name="Bage">Your age</string>
+    <string name="BFixName">Name</string>
+    <string name="BFixReason">Reason for visit</string>
+    <string name="Bemail">Email id</string>
+    <string name="LastStatus">Last Status</string>
+    <string name="fillForm"><b>Please fill in the form to fix appointments</b> </string>
+
+    <string name="title_activity_confirm">Confirm</string>
+    <string name="cdocid">Doctor Id</string>
+    <string name="cdocname">Doctor Name</string>
+    <string name="cpname">Patient Name</string>
+    <string name="pemail">Patient email</string>
+    <string name="preason">Reason for visit</string>
+    <string name="page">Patient age</string>
+    <string name="pdate">Date</string>
+    <string name="ptime">Time</string>
+    <string name="fix"><b>CONFIRM</b></string>
+
+    <string name="title_activity_view_status">ViewStatus</string>
+    <string name="Fixed"><b>YOUR APPOINTMENT HAS BEEN FIXED</b></string>
+    <string name="status"><b>Status</b></string>
+
+    <string name="title_activity_last_status">LastStatus</string>
+    <string name="txt">Enter your Email id</string>
+    <string name="docid">Doctor id</string>
+    <string name="check"><b>CHECK</b></string>
+
+    <string name="title_activity_response">Response</string>
+    <string name="nextButton"><b>NEXT</b></string>
+    <string name="pname">Name</string>
+    <string name="paemail">Email id</string>
+    <string name="pareason">Reason</string>
+    <string name="paage">Age</string>
+    <string name="padate">Date</string>
+    <string name="patime">Time</string>
+    <string name="Accept"><b>Accept</b></string>
+    <string name="Reject"><b>Reject</b></string>
+
+    <string name="title_activity_app_status">AppStatus</string>
+
+
+</resources>

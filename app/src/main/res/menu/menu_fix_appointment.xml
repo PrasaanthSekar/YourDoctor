@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.finalproject.yourdoctor.FixAppointment">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/my_id"
+        android:title="@string/my_string"
+        app:showAsAction="ifRoom|withText" />
+</menu>
